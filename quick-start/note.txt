@@ -1,0 +1,26 @@
+-- web
+- js
+- next.js
+- react
+- vue
+- nuxt
+- sveltekit
+- refine
+- angular
+- solid
+-- mobile
+- react native
+- flutter
+- apple
+- android
+-- server
+- node.js
+- python
+- dart 
+- php
+- ruby
+- .next
+- deno
+- go
+- swift
+- kotlin
