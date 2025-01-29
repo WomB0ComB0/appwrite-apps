@@ -4,7 +4,7 @@ async function initializeWebProjects(): Promise<void> {
   console.log('Initializing web projects...');
 
   // JavaScript (Vanilla JS with Vite)
-  await $`mkdir -p web/js && cd web/js && npm create vite@latest . -- --template vanilla && bun install`;
+  await $`mkdir -p web/ts && cd web/ts && npm create vite@latest . -- --template react-ts && bun install`;
 
   // Next.js
   await $`mkdir -p web/nextjs && cd web/nextjs && npx create-next-app@latest . --ts --tailwind --eslint --app --src-dir --import-alias --no-git`;
