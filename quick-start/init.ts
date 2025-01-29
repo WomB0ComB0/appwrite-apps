@@ -55,7 +55,7 @@ async function initializeServerProjects(): Promise<void> {
   await $`mkdir -p server/nodejs && cd server/nodejs && bun init -y && bun install`;
 
   // Python (with a virtual environment)
-  await $`mkdir -p server/python && cd server/python && python3 -m venv venv && touch main.py`;
+  await $`mkdir -p server/python && cd server/python && python3 -m venv venv && touch main.py && echo "venv/" >> .gitignore`;
 
   // Dart
   await $`mkdir -p server/dart && cd server/dart && dart create . --force -t console-full`;
